@@ -7,14 +7,15 @@ import numpy as np
 
 
 def hello_world():
-    print("hello")
+    x = "hello"
+    print(x)
     print("world")
 
 
-def crash_me():
-    x = [1, 2, 3]
-    i = 5
-    print(x[i])
+# def crash_me():
+#     x = [1, 2, 3]
+#     i = 5
+#     print(x[i])
 
 
 def crash_me_harder():
@@ -38,8 +39,8 @@ def use_env():
 
 
 if __name__ == "__main__":
-    hello_world()
+    # hello_world()
     # external_lib.fizz_buzz(int(sys.argv[1]))
     # crash_me()
     # crash_me_harder()
-    # use_env()
+    use_env()
